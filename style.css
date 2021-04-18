@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    list-style-type: none;
+}
+@media screen and (max-width:360px) {
+    body{
+        margin: 0px;
+        list-style-type: none;
+    }
+    #image{
+        background:linear-gradient(rgb(41, 192, 41),rgb(35, 182, 35),rgb(38, 179, 38)) ;
+    }
+    #title{
+        font-size:25px;
+        padding: 10px;
+        margin-left: 60px;
+        margin-right: 40px;
+        margin-top: 30px;
+        font-family: 'Yellowtail', cursive;
+        
+        
+        
+        
+    }
+    
+    #image-cat{
+        width: 80px;
+        height: 80px;
+        margin-top:60px;
+        margin-left: 80px;
+    }
+    .navbar{
+        position: relative;
+        background-color: brown;
+        border: 1px solid white;
+        
+    }
+    .nav-item{
+        margin: 5px;
+        
+    }
+    .nav-link{
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 1px black ;
+        font-family: 'Yellowtail', cursive;
+        font-size: 20px;
+        margin-left: 70px;
+        
+
+    }
+    #accueil{
+        margin: 10px;
+        font-family: 'Yellowtail', cursive;
+        font-size: 32px;
+        /* color: #d31501; */
+        text-shadow: 1px 2px 2px rgb(216, 218, 226) ;
+    }
+    .categorie{
+        background:linear-gradient(135deg,rgb(224, 210, 210),rgb(238, 227, 227),rgb(221, 212, 212));
+        padding-bottom: 15px;
+
+    }
+    #list{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        position: relative;
+        
+    }
+    li > a{
+        color: rgb(0, 0, 0);
+        list-style-type: none;
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 11px;
+        font-family: 'Crimson Text', serif;
+        font-weight: bold;
+       
+        
+    }
+    span{
+        color: rgb(248, 244, 244);
+        height: 50px; 
+        width: 50%;
+        font-family: 'Crimson Text', serif;
+        padding: 5px;
+        text-shadow: 1px 2px 2px black;
+
+         
+    }
+    #Petite-patte{
+        margin-top: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 1px lightblue;
+        font-family: 'Playfair Display SC', serif;
+        font-style: oblique;
+        font-family: 'Calligraffitti', cursive;
+        font-weight: bold;
+        font-size: 30px;
+      
+    }
+    .container-fluid{
+        background:linear-gradient(135deg,rgb(34, 131, 39),rgba(36, 189, 69, 0.842),rgba(18, 207, 65, 0.801)) ;
+        height: 70px;
+    }
+    .dropdown{
+        background:linear-gradient(135deg,rgb(15, 231, 26),rgb(17, 155, 29),rgb(36, 150, 32)) ;
+    }
+    #button-acc{
+        background:linear-gradient(rgb(29, 221, 11),rgb(32, 146, 41),rgb(57, 141, 23));
+        
+    }
+    #recherche{
+        margin: 15px;
+        border-radius: 30px;
+        border: 1px solid rgb(10, 32, 235);
+        box-shadow: 1px 1px 1px 1px rgb(103, 81, 223);
+    }
+    #formulaire{
+        margin-bottom: 160px;
+        margin-left:55px;
+    }
+    #question{
+        margin-left: 12%;
+        font-family: 'Courgette', cursive;
+    }
+    ::placeholder {
+        color: rgb(160, 160, 218);
+        font-size: 1.5em;
+        font-family: 'Courgette', cursive;
+        text-align: center;
+        margin: 5px;
+        font-size: 16px;
+      }
+      #name{
+        font-family: 'Courgette', cursive; 
+        margin-left: 60px;
+        color:#CD853F;
+        
+        
+      }
+      #para{
+        font-family: 'Courgette', cursive; 
+        font-size: 16px; 
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 5px;
+
+      }
+      .image-fluid{
+          margin-left: 30px;
+          
+      }
+      #lien{
+         
+          text-align: right;  
+          margin-right: 16px;
+          font-family: 'Courgette', cursive;
+        
+      }
+      #link-title{
+        color:#10921b;
+        text-shadow: 1px 1px 1px black ;
+        text-decoration: none;
+        margin-top: 20px;
+        font-size: 20px;
+
+      }
+      #name-chap{
+        font-family: 'Courgette', cursive; 
+        margin-left: 60px; 
+        color: black,white;
+      }
+      #p-pat{
+         color: #ea0e0e; 
+         text-shadow: 1px 1px 1px lightskyblue;
+         font-size: 22px;
+      }
+      #name-grib{
+        font-family: 'Courgette', cursive; 
+        margin-left: 60px; 
+        color: #b57d63;
+      }
+      #name-bdn{
+        font-family: 'Courgette', cursive; 
+        margin-left: 60px; 
+        color: #0f44d3;
+      }
+      
+      
+      
+      
+    
+   
+    
+   
+    
+    
+}
