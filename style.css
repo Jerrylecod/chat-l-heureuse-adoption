@@ -93,13 +93,10 @@
         margin-top: 15px;
         padding: 20px;
         text-align: center;
-        color: white;
-        text-shadow: 1px 1px 1px lightblue;
-        font-family: 'Playfair Display SC', serif;
-        font-style: oblique;
-        font-family: 'Calligraffitti', cursive;
-        font-weight: bold;
-        font-size: 30px;
+        color: rgb(6, 7, 7);
+        text-shadow: 1px 3px 3px rgb(239, 242, 243);
+        font-family: 'Shrikhand', cursive;
+        font-size: 25px;
       
     }
     .container-fluid{
@@ -119,10 +116,7 @@
         border: 1px solid rgb(10, 32, 235);
         box-shadow: 1px 1px 1px 1px rgb(103, 81, 223);
     }
-    #formulaire{
-        margin-bottom: 160px;
-        margin-left:55px;
-    }
+    
     #question{
         margin-left: 12%;
         font-family: 'Courgette', cursive;
@@ -189,9 +183,42 @@
         margin-left: 60px; 
         color: #0f44d3;
       }
-      #video{
-          margin-right: 30px;
+      p {
+        font-size: 1.5em;
+        color: #FE7F88;
+        background-color: transparent;
+        background-image: none;
       }
+      
+     
+      
+      .cats {
+                          
+        background-color: transparent;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size: 22px;
+        color: rgb(0, 0, 0);
+        text-shadow:1px 1px 1px rgb(255, 255, 255);
+        background:linear-gradient(rgb(218, 230, 221),rgb(225, 235, 225),rgb(215, 224, 215));
+        border: 1px solid rgb(2, 2, 2);
+        padding: 15px;
+        
+        
+      }
+      #titre-assoc{
+          text-align: center;
+      }
+      #lien-loi{
+          text-decoration: none;
+          color: rgb(6, 114, 15);
+      }
+     
+      
+         
+      
+
       
       
       
