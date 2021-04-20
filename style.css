@@ -1,74 +1,84 @@
-*{
+* {
     margin: 0px;
     list-style-type: none;
 }
+
 @media screen and (max-width:360px) {
-    body{
+    body {
         margin: 0px;
         list-style-type: none;
     }
-    #image{
-        background:linear-gradient(rgb(41, 192, 41),rgb(35, 182, 35),rgb(38, 179, 38)) ;
+
+    #image {
+        background: linear-gradient(rgb(41, 192, 41), rgb(35, 182, 35), rgb(38, 179, 38));
     }
-    #title{
-        font-size:25px;
+
+    #title {
+        font-size: 25px;
         padding: 10px;
         margin-left: 60px;
         margin-right: 40px;
         margin-top: 30px;
         font-family: 'Yellowtail', cursive;
-        
-        
-        
-        
+
+
+
+
     }
-    
-    #image-cat{
+
+    #image-cat {
         width: 80px;
         height: 80px;
-        margin-top:60px;
+        margin-top: 60px;
         margin-left: 80px;
     }
-    .navbar{
+
+    .navbar {
         position: relative;
         background-color: brown;
         border: 1px solid white;
-        
+
     }
-    .nav-item{
+
+    .nav-item {
         margin: 5px;
-        
+
     }
-    .nav-link{
+
+    .nav-link {
         text-decoration: none;
         color: white;
-        text-shadow: 1px 1px 1px black ;
+        text-shadow: 1px 1px 1px black;
         font-family: 'Yellowtail', cursive;
         font-size: 20px;
         margin-left: 70px;
-        
+
 
     }
-    #accueil{
+
+    #accueil {
         margin: 10px;
         font-family: 'Yellowtail', cursive;
         font-size: 32px;
         /* color: #d31501; */
-        text-shadow: 1px 2px 2px rgb(216, 218, 226) ;
+        text-shadow: 1px 2px 2px rgb(216, 218, 226);
     }
-    .categorie{
-        background:linear-gradient(135deg,rgb(224, 210, 210),rgb(238, 227, 227),rgb(221, 212, 212));
+
+    .categorie {
+        background: linear-gradient(135deg, rgb(224, 210, 210), rgb(238, 227, 227), rgb(221, 212, 212));
         padding-bottom: 15px;
 
     }
-    #list{
+
+    #list {
         display: flex;
         align-items: center;
         margin-right: 30px;
         position: relative;
-        
+
     }
-    li > a{
+
+    li>a {
         color: rgb(0, 0, 0);
         list-style-type: none;
         text-decoration: none;
@@ -76,52 +86,59 @@
         font-size: 11px;
         font-family: 'Crimson Text', serif;
         font-weight: bold;
-       
-        
+
+
     }
-    span{
+
+    span {
         color: rgb(248, 244, 244);
-        height: 50px; 
+        height: 50px;
         width: 50%;
         font-family: 'Crimson Text', serif;
         padding: 5px;
         text-shadow: 1px 2px 2px black;
 
-         
+
     }
-    #Petite-patte{
+
+    #Petite-patte {
         margin-top: 15px;
         padding: 20px;
         text-align: center;
         color: rgb(37, 165, 80);
-        text-shadow: 3px 3px 3px rgb(0, 0, 0);    
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
         font-family: 'Shrikhand', cursive;
-        font-size: 20px; 
-        font-weight: lighter;   
-      
+        font-size: 20px;
+        font-weight: lighter;
+
     }
-    .container-fluid{
-        background:linear-gradient(135deg,rgb(146, 199, 162),rgba(136, 182, 147, 0.842),rgba(103, 160, 125, 0.801)) ;
+
+    .entete{
+        background: linear-gradient(135deg, rgb(146, 199, 162), rgba(136, 182, 147, 0.842), rgba(103, 160, 125, 0.801));
         height: 70px;
     }
-    .dropdown{
-        background:linear-gradient(135deg,rgb(109, 161, 137),rgb(86, 184, 124),rgb(81, 180, 126)) ;
+
+    .dropdown {
+        background: linear-gradient(135deg, rgb(109, 161, 137), rgb(86, 184, 124), rgb(81, 180, 126));
     }
-    #button-acc{
-        background:linear-gradient(rgb(74, 184, 142),rgb(102, 206, 142),rgb(74, 177, 96));
-        
+
+    #button-acc {
+        background: linear-gradient(rgb(74, 184, 142), rgb(102, 206, 142), rgb(74, 177, 96));
+
     }
-    #recherche{
+
+    #recherche {
         margin: 15px;
         border-radius: 30px;
         border: 1px solid rgb(10, 32, 235);
         box-shadow: 1px 1px 1px 1px rgb(103, 81, 223);
     }
-    
-    #question{
+
+    #question {
         margin-left: 12%;
         font-family: 'Courgette', cursive;
     }
+
     ::placeholder {
         color: rgb(160, 160, 218);
         font-size: 1.5em;
@@ -129,144 +146,199 @@
         text-align: center;
         margin: 5px;
         font-size: 16px;
-      }
-      #name{
-        font-family: 'Courgette', cursive; 
+    }
+
+    #name {
+        font-family: 'Courgette', cursive;
         margin-left: 60px;
-        color:#CD853F;
-        
-        
-      }
-      .para{
-        font-family: 'Courgette', cursive; 
-        font-size: 16px; 
+        color: #CD853F;
+
+
+    }
+
+    .para {
+        font-family: 'Courgette', cursive;
+        font-size: 16px;
         margin-right: 30px;
         margin-left: 30px;
         margin-top: 5px;
-        color: green;
+        color: rgb(18, 19, 18);
 
-      }
-      .image-fluid{
-          margin-left: 30px;
-          
-      }
-      #lien{
-         
-          text-align: right;  
-          margin-right: 16px;
-          font-family: 'Courgette', cursive;
+    }
+
+    .chaton {
+        margin-left: 30px;
+
+    }
+
+   #lien {
+
+        text-align: right;
+        margin-right: 16px;
+        font-family: 'Courgette', cursive;
+        color: green;
         
-      }
-      #link-title{
-        color:#10921b;
-        text-shadow: 1px 1px 1px black ;
+
+    }
+
+
+    #link-title {
+        color: #ffffff;
+        text-shadow: 1px 1px 1px black;
         text-decoration: none;
         margin-top: 20px;
+        margin-right: 30px;
         font-size: 20px;
+       
+        
+        
 
-      }
-      #name-chap{
-        font-family: 'Courgette', cursive; 
-        margin-left: 60px; 
-        color: black,white;
-      }
-      #p-pat{
-         color: #ea0e0e; 
-         text-shadow: 1px 1px 1px lightskyblue;
-         font-size: 22px;
-      }
-      #name-grib{
-        font-family: 'Courgette', cursive; 
-        margin-left: 60px; 
+    }
+
+    #name-chap {
+        font-family: 'Courgette', cursive;
+        margin-left: 60px;
+        color: black, white;
+    }
+
+    #p-pat {
+        color: #73b96d;
+        text-shadow: 1px 1px 1px lightskyblue;
+        font-size: 22px;
+    }
+
+    #name-grib {
+        font-family: 'Courgette', cursive;
+        margin-left: 60px;
         color: #b57d63;
-      }
-      #name-bdn{
-        font-family: 'Courgette', cursive; 
-        margin-left: 60px; 
+    }
+
+    #name-bdn {
+        font-family: 'Courgette', cursive;
+        margin-left: 60px;
         color: #0f44d3;
-      }
-      p {
+    }
+
+    p {
         font-size: 1.5em;
         color: #FE7F88;
         background-color: transparent;
         background-image: none;
-      }
-      
-     
-      
-      .cats {
-                          
+    }
+
+
+
+    .cats {
+
         background-color: transparent;
         width: 100vw;
         height: 100vh;
         font-family: 'Manrope', sans-serif;
-        font-size: 22px;    
+        font-size: 22px;
         color: rgb(0, 0, 0);
-        text-shadow:1px 1px 1px rgb(255, 255, 255);
-        background:linear-gradient(rgb(218, 230, 221),rgb(225, 235, 225),rgb(215, 224, 215));
+        text-shadow: 1px 1px 1px rgb(255, 255, 255);
+        background: linear-gradient(rgb(218, 230, 221), rgb(225, 235, 225), rgb(215, 224, 215));
         border: 1px solid rgb(2, 2, 2);
         padding: 15px;
-        
-        
-        
-        
-      }
-      #titre-assoc{
-          text-align: center;
-      }
-      #lien-loi{
-          text-decoration: none;
-          color: rgb(6, 114, 15);
-          
-      }
-      #titre-adop{
-          font-size: 25px;
-          margin-right: 150px;  
-          color: rgb(60, 180, 126); 
-          font-weight: lighter;
-          text-shadow: 1px 1px 1px rgb(255, 255, 255) ;
-      }
-      #chance{
-        font-size: 18px;
-        margin-right: 110%;  
-        color: rgb(33, 116, 78); 
-        font-weight: lighter;
-        text-shadow: 1px 1px 1px rgb(250, 248, 248) ;
+
+
+
+
     }
-    #deux-chat{
+
+    #titre-assoc {
+        text-align: center;
+    }
+
+    #lien-loi {
+        text-decoration: none;
+        color: rgb(6, 114, 15);
+
+    }
+
+    #titre-adop {
+        font-size: 25px;
+        margin-right: 150px;
+        color: rgb(60, 180, 126);
+        font-weight: lighter;
+        text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    }
+
+    #chance {
+        font-size: 18px;
+        margin-right: 110%;
+        color: rgb(33, 116, 78);
+        font-weight: lighter;
+        text-shadow: 1px 1px 1px rgb(250, 248, 248);
+    }
+
+    #deux-chat {
         background-color: transparent;
         width: 50vw;
         height: 25vh;
         border-radius: 50px;
     }
-    #titre-head{
+
+    #titre-head {
         font-size: 25px;
         font-family: 'Parisienne', cursive;
         color: rgb(113, 173, 113);
         text-shadow: 1px 1px 1px rgb(0, 0, 0);
         font-weight: lighter;
     }
-    #retour{
+
+    #retour {
         font-size: 20px;
         color: black;
         font-family: 'Playball', cursive;
     }
-    #link-acc{
+
+    #link-acc {
         text-decoration: none;
     }
-     
-      
-         
-      
+    #entete-adoption{
+        background: linear-gradient(rgb(138, 194, 138),rgb(84, 190, 84),rgb(89, 184, 89));
+        margin: 10px 0px;
+        border-radius: 50px 20px;
+        
+    }
+    #image-bebe-chat{
+        margin: 10px 30px;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .police-write{
+        color: rgb(46, 146, 46);
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+        text-shadow:1px 1px 1px  black;
+    }
+    .para-write{
+        color: rgb(44, 40, 40); 
+        text-align: center;
+        font-family: 'Courgette', cursive;
+        
+    }
+    .adopt-chat{
+        font-family: 'Manrope', sans-serif; 
+        color: rgb(164, 204, 164); 
+        font-size: 19px;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px solid black;
+    }
 
-      
-      
-      
-      
-    
-   
-    
-   
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
