@@ -8,6 +8,7 @@
         margin: 0px;
         list-style-type: none;
     }
+    
 
     #image {
         background: linear-gradient(rgb(41, 192, 41), rgb(35, 182, 35), rgb(38, 179, 38));
@@ -343,6 +344,7 @@
         background:linear-gradient(135deg,rgb(72, 85, 72),rgb(123, 151, 115),rgb(81, 112, 72));
         border-radius: 50px 40px;
         padding: 10px;
+        color: white;
     }
     #form-marg{
         margin: 15px;
@@ -367,6 +369,63 @@
         
         
     }
+    #commentaire{
+        color: rgb(253, 253, 253);
+        background: linear-gradient(135deg,rgb(54, 143, 54),rgb(46, 134, 46),rgb(50, 107, 50));
+    }
+    #notice{
+        font-size: 16px;
+        margin-left: 20px;
+        background: linear-gradient(135deg,rgb(71, 131, 71),rgb(99, 172, 99),rgb(82, 151, 82));
+        padding: 15px;
+        color: rgb(245, 241, 241);
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        border-radius: 12px;
+        border: 1px solid white;
+        font-weight: lighter;
+        text-transform: capitalize;
+        
+    }
+    .link-span{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(10, 51, 26);
+        text-shadow: 1px 1px 1px rgb(240, 234, 234);
+        
+        
+        
+    }
+    #parchemin{
+        background-repeat: space;
+        background-position: bottom;
+        background-blend-mode: screen;
+        background: linear-gradient(135deg, rgb(146, 199, 162), rgba(136, 182, 147, 0.842), rgba(103, 160, 125, 0.801));
+        
+    }
+    .recommandation{
+        color: rgb(0, 0, 0);
+        text-shadow: 1px 1px 1px rgb(233, 224, 224) ;
+    }
+    #contrat{
+        background:linear-gradient(135deg,rgb(103, 129, 103),rgb(115, 141, 115),rgb(113, 146, 113));
+        color: rgb(233, 219, 16);
+        border-radius: 50px;
+        text-shadow: 1px 1px 1px rgb(2, 2, 2) ;
+    }
+    #bloc-condi{
+        color: rgb(36, 71, 43);
+        text-shadow: 1px 1px 1px rgb(250, 249, 249) ;
+        margin-right: 30px;
+    }
+    #bloc-text{
+        font-size: 20px;
+        
+    }
+    #titre-h{
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+
     
     
     
